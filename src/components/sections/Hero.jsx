@@ -1,6 +1,6 @@
 "use client";
 const { motion } = require("framer-motion");
-import img from "./../../../public/images/heroimg.jpg";
+import img from "./../../../public/images/heroimg.webp";
 import Image from "next/image";
 
 export default function Hero() {

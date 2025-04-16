@@ -16,7 +16,7 @@ export const trips = [
     price: "₹14799",
     location: "Kochi, Munnar, Thekkady, Alleppey, Kovalam",
     featured: true,
-    image: "/images/tours/kerala.jpg",
+    image: "/images/tours/kerala.webp",
 
     inclusions: [
       "Private air-conditioned vehicle throughout the tour",
@@ -92,7 +92,7 @@ export const trips = [
     price: "₹12499",
     location: "Jaipur, Jodhpur, Jaisalmer, Udaipur",
     featured: true,
-    image: "/images/tours/rajasthan.jpg",
+    image: "/images/tours/rajasthan.webp",
 
     inclusions: [
       "Private air-conditioned vehicle",
@@ -180,7 +180,7 @@ export const trips = [
     price: "₹15899",
     location: "Delhi, Haridwar, Rishikesh, Mussoorie, Shimla",
     featured: false,
-    image: "/images/tours/himachal.jpg",
+    image: "/images/tours/himachal.webp",
 
     inclusions: [
       "Private air-conditioned vehicle",

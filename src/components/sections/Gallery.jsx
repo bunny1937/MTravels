@@ -1,12 +1,12 @@
 import Image from "next/image";
 
 const images = [
-  { id: 1, src: "/images/gallery/goldentemple.jpg", alt: "goldentemple" },
-  { id: 2, src: "/images/gallery/hawamahal1.jpg", alt: "hawamahal" },
-  { id: 3, src: "/images/gallery/munnarkerala.jpg", alt: "munnar" },
-  { id: 4, src: "/images/gallery/himachal.jpg", alt: "himachal" },
-  { id: 5, src: "/images/gallery/tajmahal.jpg", alt: "tajmahal" },
-  { id: 6, src: "/images/gallery/uttarakhand.jpg", alt: "uttarakhand" },
+  { id: 1, src: "/images/gallery/goldentemple.webp", alt: "goldentemple" },
+  { id: 2, src: "/images/gallery/hawamahal1.webp", alt: "hawamahal" },
+  { id: 3, src: "/images/gallery/munnarkerala.webp", alt: "munnar" },
+  { id: 4, src: "/images/gallery/himachal.webp", alt: "himachal" },
+  { id: 5, src: "/images/gallery/tajmahal.webp", alt: "tajmahal" },
+  { id: 6, src: "/images/gallery/uttarakhand.webp", alt: "uttarakhand" },
 ];
 
 export default function Gallery() {

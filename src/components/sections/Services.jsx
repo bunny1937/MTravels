@@ -3,11 +3,18 @@
 import { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Compass, Map, Briefcase, Ticket, Users, Coffee } from "lucide-react";
+import {
+  FaMap,
+  FaCompass,
+  FaMugHot,
+  FaBriefcase,
+  FaTicket,
+  FaUser,
+} from "react-icons/fa6";
 
 const services = [
   {
-    icon: <Compass className="h-12 w-12 text-blue-500" />,
+    icon: <FaCompass className="h-12 w-12 text-blue-500" />,
     title: "Adventure Tours",
     description:
       "Embark on thrilling experiences designed for the bold traveler. Our adventure tours take you off the beaten path to discover hidden gems and breathtaking landscapes. From hiking through lush rainforests and scaling majestic mountains to white-water rafting down pristine rivers and exploring ancient caves.",
@@ -16,7 +23,7 @@ const services = [
     borderColor: "border-blue-200",
   },
   {
-    icon: <Map className="h-12 w-12 text-green-500" />,
+    icon: <FaMap className="h-12 w-12 text-green-500" />,
     title: "Custom Itineraries",
     description:
       "Experience travel your way with our bespoke itinerary planning service. We understand that every traveler is unique, which is why we take the time to understand your preferences, interests, and travel style. Our destination experts will craft a day-by-day personalized journey that perfectly balances must-see attractions with hidden local treasures.",
@@ -25,7 +32,7 @@ const services = [
     borderColor: "border-green-200",
   },
   {
-    icon: <Briefcase className="h-12 w-12 text-purple-500" />,
+    icon: <FaBriefcase className="h-12 w-12 text-purple-500" />,
     title: "Business Travel",
     description:
       "Elevate your corporate travel experience with our premium business travel services. We understand the unique demands of business travelers and offer seamless arrangements that maximize productivity while minimizing stress. From booking executive-class flights and luxury accommodations to arranging conference facilities and transportation.",
@@ -34,16 +41,16 @@ const services = [
     borderColor: "border-purple-200",
   },
   {
-    icon: <Ticket className="h-12 w-12 text-red-500" />,
-    title: "Ticket Booking",
+    icon: <FaTicket className="h-12 w-12 text-red-500" />,
+    title: "FaTicket Booking",
     description:
-      "Skip the hassle of searching multiple platforms for the best deals. Our comprehensive ticket booking service covers flights, trains, cruises, and local transportation at competitive prices. We leverage our industry relationships to secure preferred rates and exclusive offers not available to the general public.",
+      "Skip the hassle of searching multiple platforms for the best deals. Our comprehensive FaTicket booking service covers flights, trains, cruises, and local transportation at competitive prices. We leverage our industry relationships to secure preferred rates and exclusive offers not available to the general public.",
     color: "bg-red-50",
     hoverColor: "hover:bg-red-100",
     borderColor: "border-red-200",
   },
   {
-    icon: <Users className="h-12 w-12 text-yellow-500" />,
+    icon: <FaUser className="h-12 w-12 text-yellow-500" />,
     title: "Group Tours",
     description:
       "Connect with like-minded travelers on our carefully curated group adventures. Our group tours blend the convenience of pre-arranged travel with the joy of shared experiences. Led by knowledgeable local guides, these tours offer a perfect balance of structured activities and free time to explore on your own.",
@@ -52,7 +59,7 @@ const services = [
     borderColor: "border-yellow-200",
   },
   {
-    icon: <Coffee className="h-12 w-12 text-orange-500" />,
+    icon: <FaMugHot className="h-12 w-12 text-orange-500" />,
     title: "Retreat Packages",
     description:
       "Escape the demands of everyday life with our rejuvenating retreat packages. Designed with wellness and relaxation in mind, these carefully crafted getaways provide the perfect balance of structured activities and personal downtime. Return home feeling refreshed, centered, and inspired.",
