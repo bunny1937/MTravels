@@ -9,13 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/is-prop-valid": "^1.3.1",
     "framer-motion": "^12.6.5",
     "gl-matrix": "^3.4.3",
     "next": "15.2.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
-    "swiper": "^11.2.6"
+    "swiper": "^11.2.6",
+    "toast": "^0.5.4"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
